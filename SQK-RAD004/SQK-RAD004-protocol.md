@@ -7,6 +7,8 @@ To print this document, navigate to:
 
 - [ ] Fill a large foam container with ice.
 
+- [ ] Put on a pair of lab gloves.
+
 - [ ] Fetch the size-selected DNA from inside a white foam container inside the lab refridgerator and place the tube on ice.
 
 - [ ] If this is the first time using this DNA sample or the sample has been stored for a long period, you may want to check the quality of the input DNA using the Nanodrop. ONT recommends the following quality criteria:
@@ -32,7 +34,9 @@ To print this document, navigate to:
 
 - [ ] Insert the flow cell into the MinION.
 
-- [ ] Start MinKNOW and record the MinKNOW version numbers.
+- [ ] Start MinKNOW and check for software updates (lower right corner if available).
+
+- [ ] Click "MinKNOW" in the upper left, then "About MinKNOW", and then record the MinKNOW version numbers.
     - MinKNOW version (Example: 19.06.7): 
     - Core version (Example: 3.4.5):
     - Bream version (Example: 4.1.8):
@@ -57,13 +61,13 @@ To print this document, navigate to:
     - FLB (blue) (use only one vial) batch number:
     - FLT (purple stiped) batch number:
 
-- [ ] Thaw the SQB (red), LB (pink), and FLB (blue) while keeping the other reagents on ice. 
+- [ ] Thaw the SQB (red), LB (pink), FLB (blue), and FLT (purple) while keeping the other reagents on ice. 
 
 - [ ] Briefly spin down all six reagents in the centrifuge, then immediately store on ice.  
 
 - [ ] Sanitize a pair of lab scissors using ethanol, then cut the tip off of a 10 uL pipette tip.
 
-- [ ] Add 7.5 uL of sample DNA to a 0.2 mL thin-walled PCR tube using the cut pipette. Place the DNA sample tube back on ice.
+- [ ] Add 7.5 uL of sample DNA to a 0.2 mL thin-walled PCR tube using the cut pipette. Place the DNA sample tube back in the fridge, as it will not be used in further steps.
 
 - [ ] With a new pipette tip, mix the vial of FRA by pipetting up and down.
 
@@ -107,6 +111,8 @@ To print this document, navigate to:
 
 - [ ] Load 800 µl of this mix into the flow cell via the priming port, avoiding the introduction of air bubbles.
 
+- [ ] Return the rest of the FLB (blue) mixture to ice.
+
 - [ ] Wait 5 minutes.
 
 ### Loading the flow cell
@@ -125,20 +131,17 @@ To print this document, navigate to:
 
 - [ ] Using the cut pipette tip, add all (11 uL) of the DNA library (PCR tube) to the LoBind tube.
 
-- [ ] Open the SpotON port. You will have to break the seal.
+- [ ] Open the SpotON port. You will have to break the seal. Keep the removed cover in a secure location, as you will need to replace it later.
 
-- [ ] Load 200 µl of the priming mix (blue) into the flow cell via the priming port (not the SpotON sample port), avoiding the introduction
-of air bubbles.
+- [ ] Load 200 µl of the priming mix (blue) into the flow cell via the priming port (not the SpotON sample port), avoiding the introduction of air bubbles.
 
 - [ ] Sanitize a pair of lab scissors using ethanol, then cut the tip off of a 100 mL pipette tip.
 
 - [ ] Using the cut pipette tip, mix the prepared library gently by pipetting up and down just prior to loading.
 
-- [ ] Add all (75 uL) of sample to the flow cell via the SpotON sample port in a dropwise fashion. Ensure each drop flows into the port
-before adding the next.
+- [ ] Add all (75 uL) of sample to the flow cell via the SpotON sample port in a dropwise fashion. Ensure each drop flows into the port before adding the next.
 
-- [ ] Gently replace the SpotON sample port cover, making sure the bung enters the SpotON port, close the priming port and
-replace the MinION lid.
+- [ ] Gently replace the SpotON sample port cover, making sure the bung enters the SpotON port, close the priming port and replace the MinION lid.
 
 ### Start the MinKNOW software
 
@@ -155,7 +158,7 @@ replace the MinION lid.
 
 - [ ] Start the program "Amphetamine" and set the duration to "Indefinitely" to keep the machine awake.
 
-- [ ] Place all reagents back in the freezer. Place the DNA sample back in the refridgerator.
+- [ ] Place all reagents back in the freezer (except the DNA sample, which should already be in the fridge).
 
 - [ ] Stick around for 10-15 minutes to make sure that reads are being collected.
 
