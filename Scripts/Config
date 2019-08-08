@@ -1,0 +1,16 @@
+#/usr/bin/env sh
+#   Written by Peter L. Morrell
+#   07 August 2019, Falcon Heights, MN
+
+
+#   Pass the full path to the FAST5 data directory as an argument
+FAST5=/Users/pmorrell/Downloads/20190419_WBDC355_Run2/fast5
+
+#   Add the name of the sample. This will be used in naming the output directory
+SAMPLE_NAME=20190419_WBDC355_Run2
+
+#    This is run-specific, but typically FLO-MIN106 or FLO-MIN108
+FLOWCELL=FLO-MIN106
+
+#    This is run-specific, but typically SQK-RAD004
+KIT=SQK-RAD004
