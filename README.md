@@ -4,13 +4,15 @@ Based off [Li Lei's Nanopore GitHub](https://github.com/lilei1/Nanopore_sequenci
 
 ## Reagents, flowcells, and DNA sample locations
 Size-selected DNA > 40kb is stored inside a white foam container inside the lab refrigerator.  
-    - Size selection is performed by UMGC.  
-    - Each sample should be labeled and dated. Samples can be stored at 4 degrees C for a long period of time.  
+- Size selection is performed by UMGC.  
+- Each sample should be labeled and dated. Samples can be stored at 4 degrees C for a long period of time.  
+
 Unusued flowcells are stored on the top shelf of the lab refrigerator.  
-    - Please do not put used flowcells back into the refrigerator.  
+- Please do not put used flowcells back into the refrigerator.  
+
 Most Nanopore reagents are stored inside a clear plastic bag in the lower left side of the lab freezer.  
-    - Please do not put used XXX reagent back inside the freezer! Those vials are one-time use only.  
-    - All other reagents should be kept frozen at all times unless the protocol specifies otherwise.  
+- Please do not put used XXX reagent back inside the freezer! Those vials are one-time use only.  
+- All other reagents should be kept frozen at all times unless the protocol specifies otherwise.  
 
 ## Rapid Sequencing (SQK-RAD004) protocol
 
@@ -34,7 +36,10 @@ After the sequencing run is finished (48 hours), use the following command to st
 At this time, the used flowcell can be stored to be sent back for recycling.
 
 ```
-/Users/LiLei/softwares/ont-guppy-cpu/bin/guppy_basecaller --input_path /Library/MinKNOW/data/YYYYMMDD_SampleName_RunNumber/SampleName/RunIdentifier/fast5 --save_path /Library/MinKNOW/data/YYYYMMDD_SampleName_RunNumber/basecalled --flowcell FLO-MIN106 --kit SQK-RAD004
+/Users/LiLei/softwares/ont-guppy-cpu/bin/guppy_basecaller \
+    --input_path /Library/MinKNOW/data/YYYYMMDD_SampleName_RunNumber/SampleName/RunIdentifier/fast5 \
+    --save_path /Library/MinKNOW/data/YYYYMMDD_SampleName_RunNumber/basecalled \
+    --flowcell FLO-MIN106 --kit SQK-RAD004
 ```
 
 ## Data backup
@@ -46,7 +51,8 @@ You can use [Globus](https://app.globus.org/file-manager?destination_id=fb6f1c6b
 Use rdiff backup to back up data to the external hard drive.
 
 ```
-rdiff-backup --force /Library/MinKNOW/data/YYYYMMDD_SampleName_RunNumber/ /Volumes/Drive8/Nanopore/YYYYMMDD_SampleName_RunNumber/
+rdiff-backup --force /Library/MinKNOW/data/YYYYMMDD_SampleName_RunNumber/ \
+    /Volumes/Drive8/Nanopore/YYYYMMDD_SampleName_RunNumber/
 ```
 
 ---
