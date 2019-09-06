@@ -3,11 +3,11 @@ Lab-specific protocols and data handling for Nanopore sequencing with the MinION
 Based off [Li Lei's Nanopore GitHub](https://github.com/lilei1/Nanopore_sequencing/blob/master).
 
 ## Reagents, flowcells, and DNA sample locations
-Size-selected DNA > 40kb is stored inside a white foam container inside the lab refridgerator.  
+Size-selected DNA > 40kb is stored inside a white foam container inside the lab refrigerator.  
     - Size selection is performed by UMGC.  
     - Each sample should be labeled and dated. Samples can be stored at 4 degrees C for a long period of time.  
-Unusued flowcells are stored on the top shelf of the lab refridgerator.  
-    - Please do not put used flowcells back into the refridgerator.  
+Unusued flowcells are stored on the top shelf of the lab refrigerator.  
+    - Please do not put used flowcells back into the refrigerator.  
 Most Nanopore reagents are stored inside a clear plastic bag in the lower left side of the lab freezer.  
     - Please do not put used XXX reagent back inside the freezer! Those vials are one-time use only.  
     - All other reagents should be kept frozen at all times unless the protocol specifies otherwise.  
