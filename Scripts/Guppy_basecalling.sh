@@ -7,8 +7,7 @@ set -euf - o pipefail
 #   The configuation file contains the input file path sample name
 source Config
 
-GUPPY=/Applications/ont-guppy-cpu/bin/guppy_basecaller
-OUTPUT=/Users/pmorrell/Downloads/Guppy_Output/"$SAMPLE_NAME"/basecalled
+OUTPUT="$OUT_DIR"/"$SAMPLE_NAME"/basecalled_"$GUPPY_VERSION"
 
 mkdir -p $OUTPUT
 $GUPPY --recursive --input_path $FAST5 --save_path $OUTPUT --flowcell $FLOWCELL --kit $KIT
