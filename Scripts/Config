@@ -3,23 +3,23 @@
 #   07 August 2019, Falcon Heights, MN
 
 
-#    Where is the Guppy software installed?
-GUPPY=/Applications/ont-guppy-cpu/bin/guppy_basecaller
+#    Where is the Guppy basecaller executable installed?
+GUPPY=/panfs/roc/groups/9/morrellp/public/Software/guppyWrapper/CPU-ont-guppy/bin/guppy_basecaller
 
 #    Where do we store the output files?
 #    Final file produced by the basecaller will be: ${OUT_DIR}/${SAMPLE_NAME}/basecalled_${GUPPY_VERSION}
-OUT_DIR=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Unit_Testing
+OUT_DIR=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/WBDC_inversions/20190813_WBDC355_Run8/20190813_WBDC355_Run8/20190813_1909_MN28971_FAK25864_6ecb0dbb
 
 #   Pass the full path to the FAST5 data directory as an argument
-FAST5=/Users/pmorrell/Downloads/20190419_WBDC355_Run2/fast5
+FAST5=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/WBDC_inversions/20190813_WBDC355_Run8/20190813_WBDC355_Run8/20190813_1909_MN28971_FAK25864_6ecb0dbb/fast5
 
 #   Pass the version of Guppy being used
-GUPPY_VERSION=3.2.4
+GUPPY_VERSION=3.2.2
 
 #   Add the name of the sample. This will be used in naming the output directory
-SAMPLE_NAME=20190419_WBDC355_Run2
+SAMPLE_NAME=20190813_WBDC355_Run8
 
-#    This is run-specific, but typically FLO-MIN106 or FLO-MIN108
+#    This is specifically the type of flowcell and is run-specific, but typically FLO-MIN106 or FLO-MIN108
 FLOWCELL=FLO-MIN106
 
 #    This is run-specific, but typically SQK-RAD004
