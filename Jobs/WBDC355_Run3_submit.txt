@@ -1,5 +1,5 @@
 # command line for running guppy on Mesabi using Nick Dunn's splitter code
-# 
+# https://github.umn.edu/dunn0404/guppy_job_submitter
 python3 prepare_guppy.py \
 --input_path /panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/WBDC_inversions/20190509_WBDC355_Run3/WBDC355/20190509_1655_MN28971_FAK25407_c6809396/fast5 \
 --save_path /scratch.global/pmorrell/WBDC355/WBDC355_Run3 \
@@ -7,6 +7,6 @@ python3 prepare_guppy.py \
 --kit SQK-RAD004 \
 --flowcell FLO-MIN106 \
 --njobs 10 \
---nsets 10 \
+--nsets 10 
 
 
