@@ -1,0 +1,10 @@
+# command line for running guppy on Mesabi using Nick Dunn's splitter code
+# https://github.umn.edu/dunn0404/guppy_job_submitter
+python3 ../prepare_guppy.py \
+--input_path /panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/Morex/20190911_MorexSample2_Run10/20190911_MorexSample2_Run10/20190911_1625_MN28971_FAH84690_c9373f82/fast5 \
+--save_path /scratch.global/pmorrell/Morex/20190911_MorexSample2_Run10 \
+--stage_path /scratch.global/pmorrell/Morex/20190911_MorexSample2_Run10 \
+--flowcell FLO-MIN106 \
+--kit SQK-RAD004 \
+--njobs 10 \
+--nsets 10
