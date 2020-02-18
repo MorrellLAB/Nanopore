@@ -1,16 +1,15 @@
-#/usr/bin/env sh
-#   Written by Peter L. Morrell
-#   07 August 2019, Falcon Heights, MN
-
+#!/bin/bash
 #PBS -l nodes=1:ppn=24:gpu=2,walltime=12:00:00 
 #PBS -m abe 
 #PBS -M gfrascar@umn.edu 
 #PBS -q v100
 #PBS -N guppy_basecalling
 
+#   Written by Peter L. Morrell
+#   07 August 2019, Falcon Heights, MN
 # load modules for use of GPU
 module load cuda cuda-sdk
-module load guppy/3.4.4
+module load guppy/3.4.5
 
 set -euf - o pipefail
 

@@ -14,7 +14,7 @@ OUT_DIR=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/WBDC_invers
 FAST5=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/WBDC_inversions/20200109_WBDC355_Run10/20200109_WBDC355_Run10/20200109_WBDC355_Run10/20200109_2144_MN28971_FAL66422_99bb1204/fast5
 
 #   Pass the version of Guppy being used
-GUPPY_VERSION=3.4.4
+GUPPY_VERSION=3.4.5
 
 #   Add the name of the sample. This will be used in naming the output directory
 SAMPLE_NAME=20200109_WBDC355_Run10
