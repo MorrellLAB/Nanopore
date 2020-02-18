@@ -20,6 +20,9 @@ source $CONFIG
 #   Output should be written back to data directory
 OUTPUT="$OUT_DIR"/"$SAMPLE_NAME"/basecalled_"$GUPPY_VERSION"
 
+#Check if the directory exists if not make it
+mkdir -p $OUT_DIR "$OUT_DIR"/"$SAMPLE_NAME" "$OUT_DIR"/"$SAMPLE_NAME"/basecalled_"$GUPPY_VERSION"
+
 #   Guppy will base call from FAST5 and output compressed fastq, using GPUs on the v100 nodes
 #   Must qsub from a Mesabi node
 #   The '-num_callers' specifies number of callers per GPU, '--device' specifies first 2 GPUs on node
