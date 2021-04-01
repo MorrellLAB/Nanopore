@@ -1,0 +1,26 @@
+#/usr/bin/env sh
+#   Written by Peter L. Morrell
+#   07 August 2019, Falcon Heights, MN
+
+
+#    Where is the Guppy basecaller executable installed?
+GUPPY=guppy_basecaller
+
+#    Where do we store the output files?
+#    Final file produced by the basecaller will be: ${OUT_DIR}/${SAMPLE_NAME}/basecalled_${GUPPY_VERSION}
+OUT_DIR=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/Mutant_Barley/20180905_M29-2-2-self5_Run1
+
+#   Pass the full path to the FAST5 data directory as an argument
+FAST5=/panfs/roc/groups/9/morrellp/shared/Datasets/Nanopore/Barley/Mutant_Barley/20180905_M29-2-2-self5_Run1/fast5
+
+#   Pass the version of Guppy being used
+GUPPY_VERSION=4.5.2
+
+#   Add the name of the sample. This will be used in naming the output directory
+SAMPLE_NAME=20180905_M29-2-2-self5_Run1
+
+#    This is specifically the type of flowcell and is run-specific, but typically FLO-MIN106 or FLO-MIN108
+FLOWCELL=FLO-MIN106
+
+#    This is run-specific, but typically SQK-RAD004:
+KIT=SQK-RAD004
