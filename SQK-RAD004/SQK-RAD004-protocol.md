@@ -1,8 +1,5 @@
 # Rapid Sequencing (SQK-RAD004) Guide Sheet
 
-To print this document, navigate to:
-[https://gitprint.com/MorrellLAB/Nanopore/blob/master/SQK-RAD004/SQK-RAD004-protocol.md](https://gitprint.com/MorrellLAB/Nanopore/blob/master/SQK-RAD004/SQK-RAD004-protocol.md)
-
 ### Input DNA Quality Control
 
 - [ ] Fill a large foam container with ice.
