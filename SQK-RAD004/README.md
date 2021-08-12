@@ -2,7 +2,7 @@
 
 **IMPORTANT!** As of August 12, 2021 Nanopore has printable checklist versions of all of their protocols. These do require a log in to access, however. Please download the most updated version of their checklists/protocols when doing a sequencing run. They continuously update the protocol (e.g., changes such as amount of priming mix to load into the flow cell, etc.).
 
-The protocol here, is outdated. Please download the most updated protocol from Nanopore's website.
+The protocol here, is outdated. Please download the most updated protocol from [Nanopore's website](https://community.nanoporetech.com/protocols/rapid-sequencing-sqk-rad004).
 
 ---
 
