@@ -1,5 +1,11 @@
 # SQK-RAD004 Protocol
 
+**IMPORTANT!** As of August 12, 2021 Nanopore has printable checklist versions of all of their protocols. These do require a log in to access, however. Please download the most updated version of their checklists/protocols when doing a sequencing run. They continuously update the protocol (e.g., changes such as amount of priming mix to load into the flow cell, etc.).
+
+The protocol here, is outdated. Please download the most updated protocol from Nanopore's website.
+
+---
+
 The protocol can be modified in the markdown file called `SQK-RAD004-protocol.md`.
 
 The printable PDF version of the protocol is the file called [`SQK-RAD004-protocol.pdf`](https://github.com/MorrellLAB/Nanopore/blob/master/SQK-RAD004/SQK-RAD004-protocol.pdf). See below for how to convert the markdown file to PDF.
